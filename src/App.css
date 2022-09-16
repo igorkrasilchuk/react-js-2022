@@ -1,0 +1,25 @@
+
+.main{
+    background: silver;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+.parents, .children, .grandparents{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.simpson{
+    background: lightgreen;
+    min-width: 300px;
+    min-height: 100px;
+}
+h1, h2 {
+    text-align: center;
+}
+.title{
+    background: darkgray;
+    text-align: center;
+}
