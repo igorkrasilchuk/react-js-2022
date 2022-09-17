@@ -1,7 +1,7 @@
 import {simpsons} from "./data";
 import Simpson from "./Simpson";
 
-export  default function Simpsons(props) {
+export  default function Simpsons() {
 
     return(
         <div>
