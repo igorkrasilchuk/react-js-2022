@@ -1,10 +1,10 @@
 export  default function User(props) {
-    let {users} = props
+    let {user} = props
     return(
         <div>
-            <h3>{users.id}---{users.name}</h3>
-            <h4>{users.username}</h4>
-            <p>{users.email}</p>
+            <h3>{user.id}---{user.name}</h3>
+            <h4>{user.username}</h4>
+            <p>{user.email}</p>
         </div>
     );
 }
